@@ -7,7 +7,7 @@ export default function AppHeader() {
     return (
         <>
             {/* top-header */}
-            <div className='flex items-center text-lg justify-between container m-auto gap-12'>
+            <div className='flex flex-col md:flex-row items-center text-lg justify-between container m-auto gap-5 md:gap-12'>
                 <Link href="/">
                     <Image
                         src="/assets/img/logo.png"
@@ -46,7 +46,7 @@ export default function AppHeader() {
             </div >
 
             {/* menu-bar */}
-            < div className="flex text-lg gap-12 w-full py-3 items-center container m-auto  px-5  shadow-2xl" >
+            < div className="flex m-auto text-lg gap-12 w-full py-3 items-center container  px-5 justify-items-start md:justify-center shadow-2xl" >
                 <Link href='/home'>Home</Link>
                 <Link href='/categories'>Categories</Link>
                 <Link href='/deals'>Deals</Link>
