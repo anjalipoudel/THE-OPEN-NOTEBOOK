@@ -47,7 +47,7 @@ export default function AppHeader() {
 
             {/* menu-bar */}
             < div className="flex m-auto text-lg gap-12 w-full py-3 items-center container  px-5 justify-items-start md:justify-center shadow-2xl" >
-                <Link href='/home'>Home</Link>
+                <Link href='/'>Home</Link>
                 <Link href='/categories'>Categories</Link>
                 <Link href='/deals'>Deals</Link>
                 <Link href='/blog'>Blog</Link>

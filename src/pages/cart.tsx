@@ -23,7 +23,7 @@ export default function CartPage() {
     return (
         <>
             <div className='flex flex-col md:flex-row m-auto p-4  gap-32 container '>
-                <div className='flex flex-col  w-full md:w-3/5 p-5  bg-[#7b92b0]  shadow-lg rounded-lg '>
+                <div className='flex flex-col  w-full md:w-3/5 p-5  bg-[#7de3bb] shadow-lg rounded-lg '>
                     <div className='flex flex-row text-lg text-white justify-between  items-center'>
                         <div className='font-semibold'>My Cart (1)</div>
                         <div className='font-semibold'>Price</div>
@@ -31,7 +31,7 @@ export default function CartPage() {
                     <div className='flex flex-row  justify-between' >
                         <div className='flex'>
                             <Image
-                                src="/assets/img/books.jpg"
+                                src="/assets/img/simulation.jpg"
                                 alt="Cart Section"
                                 width={110}
                                 height={70}
@@ -41,18 +41,19 @@ export default function CartPage() {
                         </div>
                         <div>
                             <div className='flex flex-col '>
-                                <div className='font-semibold'>30 Beautiful Children's Books</div>
-                                <div className='text-sm flex gap-3'>BY
-                                    <p className='text-green-800'> J.D Salinger</p>
+                                <div className='font-semibold'> SIMULATION & MODELING</div>
+                                <div className='text-sm flex gap-3'>Author:
+                                    <p className='text-green-800'>
+                                        Er. Santosh Dhungana</p>
                                 </div>
                                 <div>Ratings
                                 </div>
 
 
                                 <div className="flex flex-row gap-2 ">
-                                    <button type="button" onClick={decNum} className='w-6 text-white rounded  bg-[#f60100] '>-</button>
+                                    <button type="button" onClick={decNum} className='w-6 text-white rounded  bg-[#c93b27]  '>-</button>
                                     <input type="text" className="w-10 rounded px-2" value={num} onChange={handleChange} />
-                                    <button className="w-6 text-white rounded  bg-[#f60100] " type="button" onClick={incNum}>+</button>
+                                    <button className="w-6 text-white rounded  bg-[#c93b27] " type="button" onClick={incNum}>+</button>
                                 </div>
 
                             </div>
@@ -61,14 +62,16 @@ export default function CartPage() {
                         <div className='flex flex-col p-5  justify-end font-semibold'>
                             <div>NRP.150.00
                             </div>
-                            <div className=' text-[#f60100]  '>remove</div>
+                            <div className=' text-[#c93b27]  '>remove</div>
                         </div>
 
                     </div>
 
-                    <div className='justify-center flex'>
-                        <input type='button' value={`continue shopping >`} className='cursor-pointer bg-[#f60100] p-3 rounded text-white hover:bg-blue-600' />
-                    </div>
+                    <Link href='/'>
+                        <div className='justify-center flex'>
+                            <input type='button' value={`continue shopping >`} className='cursor-pointer bg-[#c93b27]  p-3 rounded text-white hover:bg-blue-600' />
+                        </div>
+                    </Link>
 
 
                 </div>
@@ -89,7 +92,7 @@ export default function CartPage() {
                         <div>US$32.27</div>
                     </div>
                     <div className='justify-center flex'>
-                        <input type='button' value="CHECKOUT" className='cursor-pointer bg-[#f60100] p-3 rounded text-white hover:bg-blue-600' />
+                        <input type='button' value="CHECKOUT" className='cursor-pointer bg-[#c93b27]  p-3 rounded text-white hover:bg-blue-600' />
                     </div>
                     <div>we Accept:</div>
                 </div>

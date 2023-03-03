@@ -29,10 +29,32 @@ export default function wishlist() {
                     />
                     <div>30 Beautiful Children's Books</div>
                     <div>150.00</div>
-                    <input type='submit' value="Add to Cart" className='cursor-pointer bg-red-600 p-2 rounded text-white hover:text-gray-100' />
-                    <input type='submit' value="Remove" className='cursor-pointer bg-red-800 p-2 rounded text-white hover:text-gray-100' />
+                    <input type='submit' value="Add to Cart" className='cursor-pointer bg-[#7de3bb] p-2 rounded text-white hover:text-gray-100' />
+                    <input type='submit' value="Remove" className='cursor-pointer bg-[#7de3bb] p-2 rounded text-white hover:text-gray-100' />
                 </div >
-            </div >
+            </div>
+            <div>
+                <div className=" flex flex-col p-3 w-full  m-auto items-center">
+
+                    <Image
+                        src="/assets/img/empty.gif"
+                        alt="wishlist Section"
+                        width={150}
+                        height={50}
+                        className="object-cover m-auto rounded"
+                        quality={100}
+                    />
+
+                    <div className=" text-[#7de3bb] text-xl font-light  ">
+                        Your WishList is empty!
+                    </div>
+                    <div className='text-sm text-slate-500'>Explore more and shortlist same items</div>
+                    <div className='justify-center flex'>
+                        <input type='button' value={`Start shopping `} className='cursor-pointer bg-[#7de3bb] p-3 m-3 rounded text-white hover:bg-blue-600' />
+                    </div>
+                </div>
+
+            </div>
         </>
     )
 }
