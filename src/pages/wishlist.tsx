@@ -5,7 +5,8 @@ export default function wishlist() {
     return (
         <>
             <div className=' flex m-auto p-3 text-xl container font-bold'>Wish list</div>
-            <div className="flex m-auto p-3 container">share on</div>
+            <div className="flex m-auto p-3 container">share on
+            </div>
             <div className='flex flex-col gap-5'>
                 <div className='flex flex-row md: '>
                     <div className="container bg-[#F5F5F5] font-medium h-20 items-center flex m-auto justify-between px-5 rounded">

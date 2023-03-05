@@ -69,7 +69,7 @@ export default function CartPage() {
 
                     <Link href='/'>
                         <div className='justify-center flex'>
-                            <input type='button' value={`continue shopping >`} className='cursor-pointer bg-[#c93b27]  p-3 rounded text-white hover:bg-blue-600' />
+                            <input type='button' value={`continue shopping `} className='cursor-pointer bg-[#c93b27]  p-3 rounded text-white hover:bg-blue-600' />
                         </div>
                     </Link>
 

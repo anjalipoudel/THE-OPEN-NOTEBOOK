@@ -58,17 +58,17 @@ export default function Footer() {
                         </div>
                         <div className="flex flex-row ">
                             <FooterCard
-                                url="https://www.facebook.com/theastranix"
+                                url="https://www.facebook.com/sabnom.poudel"
                                 icon={FacebookIcon}
                             />
 
                             <FooterCard
-                                url="https://www.instagram.com/theastranix"
+                                url="https://www.instagram.com/anjalip0udel/"
                                 icon={InstagramIcon}
                             />
 
                             <FooterCard
-                                url="https://github.com/astranixtechnologies"
+                                url="https://github.com/anjalipoudel"
                                 icon={GithubIcon}
                             />
                         </div>
@@ -104,12 +104,12 @@ export default function Footer() {
                                     <div className="flex gap-2 items-center">
                                         <div className="h-3 w-5 ">{MailIcon}
                                         </div>
-                                        <div>support@astranix.com</div>
+                                        <div>sabnom77poudel@gmail.com</div>
                                     </div>
                                     <div className="flex gap-2 items-center">
                                         <div className="h-4 w-5 ">
                                         </div>
-                                        <div>info@astranix.com</div>
+                                        <div>anjali.info.np</div>
                                     </div>
                                 </div>
                             </div>
@@ -118,12 +118,12 @@ export default function Footer() {
                                     <div className="flex gap-2 items-center">
                                         <div className="h-4 w-5 ">{PhoneIcon}
                                         </div>
-                                        <div>(+977) 9802034500</div>
+                                        <div>(+977) 9845952673</div>
                                     </div>
                                     <div className="flex gap-2 items-center">
                                         <div className="h-4 w-5 ">
                                         </div>
-                                        <div>(+977) 9802034512</div>
+                                        <div>(+977) 9845952673</div>
                                     </div>
                                 </div>
                             </div>
@@ -142,7 +142,7 @@ export default function Footer() {
             </div>
             <div className=" bg-[#7de3bb] w-full flex justify-center">
                 <div className="flex pb-5 text-white font-poppins justify-start pl-5 md:pl-0 lg:justify-center text-sm lg:text-lg">
-                    Copyright ©2022 Astranix Technologies Pvt. Ltd. | All Rights Reserved
+                    Developed by Anjali Poudel |© 2022 All rights reserved
                 </div>
             </div>
         </>
