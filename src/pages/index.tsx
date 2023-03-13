@@ -34,24 +34,10 @@ export default function Home() {
           quality={100}
         />
       </div>
+      {/* //BookCard */}
       <div className='grid  grid-cols-4  m-auto'>
-        <BookCard />
-        <BookCard />
-        <BookCard />
-        <BookCard />
-        <BookCard />
-        <BookCard />
-        <BookCard />
-        <BookCard />
-        <BookCard />
-        <BookCard />
-        <BookCard />
-        <BookCard />
-        <BookCard />
-        <BookCard />
-        <BookCard />
-        <BookCard />
 
+        <BookCard />
       </div>
 
     </>

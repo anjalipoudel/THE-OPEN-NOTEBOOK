@@ -5,7 +5,7 @@ import React, { useState } from 'react'
 
 
 export default function AppHeader() {
-    const [searchTerm, setSearchTerm] = useState("");
+
     return (
 
         <>
