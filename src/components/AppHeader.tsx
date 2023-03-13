@@ -1,10 +1,13 @@
 import { CartIcon, LoginIcon, MenuIcon, ProfileIcon, SearchIcon, WishlistIcon } from '@/icons'
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
+import React, { useState } from 'react'
+
 
 export default function AppHeader() {
+    const [searchTerm, setSearchTerm] = useState("");
     return (
+
         <>
             {/* top-header */}
             <div className='flex flex-col md:flex-row items-center text-lg justify-between container m-auto gap-5 md:gap-12'>
@@ -19,9 +22,9 @@ export default function AppHeader() {
                     />
                 </Link>
                 <div className='flex' >
-                    <input type='text' placeholder='Search....' className="border-2 rounded w-96 boder-black ">
+                    <input type='text' placeholder='Search....' className="border-2 rounded w-96 boder-black " />
 
-                    </input>
+
                     <button type='button' className='border-black justify-between' value="search" ><div className=' text-black w-8 h-8'>
                         {SearchIcon}
                     </div></button>
@@ -124,6 +127,7 @@ export default function AppHeader() {
             </div>
         </>
     )
+
 
 }
 

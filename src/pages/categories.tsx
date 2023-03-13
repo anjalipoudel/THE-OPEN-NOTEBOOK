@@ -1,9 +1,14 @@
-import React from 'react'
+import SubMenu from '@/components/SubMenu'
+import Link from 'next/link'
+import react, { useState } from 'react'
+
 
 export default function categories() {
+    const suseState = () => {
+        const [count, SetCount] = useState()
+    }
     return (
         <>
-
             <a href="./categories" className="relative block py-6 px-4 lg:p-6 text-sm bg-blue-800 text-white">Categories</a>
             <div className="p-6 mega-menu mb-16 sm:mb-0 shadow-xl bg-blue-800 z-10">
                 <div className="container mx-auto w-full flex flex-wrap justify-between">
